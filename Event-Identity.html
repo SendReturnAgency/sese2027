@@ -208,7 +208,7 @@
                         </div>
 
                         <label id="staticrypt-remember-label" class="staticrypt-remember hidden">
-                            <input id="staticrypt-remember" type="checkbox" name="remember" />
+                            <input id="staticrypt-remember" type="checkbox" name="remember" checked />
                             30 Tage merken
                         </label>
 
@@ -847,7 +847,7 @@ exports.init = init;
 
                     // show the remember me checkbox
                     if (isRememberEnabled) {
-                        document.getElementById("staticrypt-remember-label").classList.remove("hidden");
+                        /* remember always on */
                     }
                 }
             };
